@@ -1,0 +1,213 @@
+/* -------------------Inquiry Page ---------------------- */
+body{
+  overflow: auto;
+}
+input[type="checkbox" i]{
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  -webkit-appearance: auto;
+  box-sizing: border-box;
+  padding: initial;
+  border: initial;
+}
+
+
+.form-ttl{
+  text-align: center;
+}
+.form-ttl .logo-box{
+  text-align: left;
+  margin: 15px 0 10px;
+}
+.form-ttl .logo-box img{
+  width: 60%;
+}
+.form-ttl .title h2{
+  font-size: 1.125rem;
+  margin: 18px 0 25px;
+}
+p.form-prev{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 105%;
+  color: #555;
+}
+label.inline-txt{
+  font-size: 100%;
+  font-weight: normal;
+}
+input[type=checkbox]{
+  -webkit-appearance: checkbox;
+}
+input[type=radio]{
+  -webkit-appearance: radio;
+}
+input[type=checkbox],
+input[type=radio]{
+  margin: 0 0 3px 0;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+span.required{
+  margin-left: 4px;
+  font-size: 12px;
+}
+.form-group {
+  padding-top: 0.625rem;
+  margin-bottom: 15px;
+}
+.PI-terms {
+  border-top: 1px solid #ccc;
+}
+.small{
+  font-size: 13px;
+}
+.form-group >input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-bootstrap >input:focus{
+  outline: 5px auto -webkit-focus-ring-color;
+  border: 1px solid #ccc;
+  box-shadow: none !important;
+}
+.form-group >select {
+  -moz-appearance: menulist;
+ -webkit-appearance: menulist;
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 10px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #404040;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #bfbfbf;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-group >textarea {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  padding: 10px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #404040;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #bfbfbf;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-group .inquiry-txtarea{
+  height: 15rem;
+}
+.form-group >select::-ms-expand{
+  display: block;
+}
+div.radio >span{
+  float: left;
+}
+div.checkbox > span{
+  display: block;
+}
+div.radio >span {
+  margin: 0 1.6rem 0 0;
+  display: block;
+}
+.select::after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+.discription >p{
+  font-size: 15px;
+}
+.submit{
+  margin-bottom: 50px;
+  padding:15px 0 30px;
+  text-align: center;
+}
+
+/*-------------------- Thanks Page --------------------*/
+
+.whole-wrapper{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.whole-wrapper >div{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding:2.125rem 0;
+  background: rgba(255, 192, 37, 0.6);
+  margin-top: -5%;
+}
+.whole-wrapper >div h1{
+  font-size: 2rem;
+}
+.whole-wrapper >div p:first-child{
+  padding-top: 20px;
+  font-size: 0.95rem;
+}
+
+@media only screen and (min-width: 1200px){
+  .form-ttl .logo-box img{
+    width: 20%;
+  }
+  .submit{
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .form-ttl .logo-box img{
+    width: 35%;
+  }
+  .form-ttl .title h2{
+    font-size: 1.5rem;
+    margin: 20px 0 35px;
+  }
+  .whole-wrapper >div{
+    padding: 3.75rem 0;
+  }
+  .whole-wrapper >div h1{
+    font-size: 2.5rem;
+  }
+  .whole-wrapper >div p{
+    font-size: 1rem;
+  }
+}

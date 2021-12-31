@@ -1,0 +1,1431 @@
+/* ------------------------- Top View ---------------------------*/
+.white-bg{
+  background: #fff;
+}
+.page-title{
+  padding: 120px 0 50px;
+  color: #fff;
+  position: relative;
+  opacity: 0.85;
+}
+.page-title::before{
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.little-child .page-title{
+  background: center/ cover no-repeat url(../images/1stgrade-drawing-SDGsposters.jpg);
+}
+.elementary .page-title{
+  background: center 30%/ cover no-repeat url(../images/elementary-class.jpg);
+}
+.junior-highschool .page-title{
+  background: center center/ cover no-repeat url(../images/jhs-lesson.jpg);
+}
+.advanced .page-title{
+  background: center 25%/ cover no-repeat url(../images/above-highschool.jpg);
+}
+.fee-page .page-title{
+  background: center/ cover no-repeat url(../images/lessonfee-page.jpeg);
+}
+.interaction-project .page-title{
+  background:no-repeat url(../images/top-slide2.jpg);
+  background-size: cover;
+  background-position: center 25%;
+}
+.entry-flow .page-title{
+  background:center 55%/cover no-repeat url(../images/entryflow-page.jpeg);
+}
+.curriculum .page-title{
+  background:center 90%/cover no-repeat url(../images/feature-item4.jpeg);
+}
+.page-title h1{
+  font-size: 2.5rem;
+  font-size: 40px;
+  font-weight: 900;
+  padding-top: 3.15rem;
+  margin-bottom: 0.9375rem;
+  text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.3);
+}
+.not-class .page-title h1{
+  padding-bottom: 1.75rem;
+}
+.page-title  p{
+  font-size: 1rem;
+  font-size: 16px;
+  text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.3);
+}
+.class-outline{
+  padding: 6.25rem 0;
+  background: rgba(255, 255, 255, 1);
+}
+.class-outline .inner,
+.each-class .inner{
+  max-width: 870px;
+}
+.class-outline .container{
+  text-align: center;
+}
+.class-outline h3{
+  display: inline-block;
+  font-size: 1.8725rem;
+  font-size: 29.96px;
+  font-weight: 900;
+  line-height: 1.8;
+  text-align: left;
+}
+
+
+/* --------------------------- Class Page ------------------------------- */
+.activity-panel{
+  color: #fff;
+  padding: 100px 0;
+  background: #F2836B;
+}
+.activity-panel h2{
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+  font-size: 40px;
+  font-weight: 900;
+  padding:0 15px;
+  margin-top: -0.5em;
+  margin-bottom: 1.5em;
+}
+.activity-panel .content-box h3{
+  font-size: 1.5rem;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0.85em 0 1em;
+}
+.activity-panel .content-box h3 span{
+  font-size: 0.58em;
+  font-weight: normal;
+}
+.img-activity{
+  width: 100%;
+  padding-top: calc(450 / 720 * 100%);
+}
+.img-activity-item1{
+  background: center/ cover no-repeat url(../images/activity-littlechild-craft.jpg);
+}
+.img-activity-item2{
+  background: center/ cover no-repeat url(../images/activity-littlechild-book.jpg);
+}
+.img-activity-item3{
+  background: center/ cover no-repeat url(../images/activity-littlechild-chants.jpeg);
+}
+.activity-panel  .others{
+  padding: 20px 15px 0;
+}
+section.each-class{
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+}
+section.each-class::before{
+  content: "";
+  background: url(../images/eachclass-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1
+}
+.class-box{
+  width: 100%;
+  border-radius: 5px;
+  border: solid transparent;
+  border-width: 8px 5px 5px 5px;
+  text-align: center;
+  background: #fff;
+}
+.little-child .class-box{
+  border-color: #E44677;
+}
+.elementary .class-box{
+  border-color: #5EC147;
+}
+.junior-highschool .class-box{
+  border-color: #35BBC6;
+}
+.advanced .class-box{
+  border-color: #BA1011;
+}
+.class-box .box-title{
+  color: #fff;
+  padding: 2em 2.3333em;
+}
+.little-child .class-box .box-title{
+  background-color: #E44677;
+}
+.elementary .class-box .box-title{
+  background-color: #5EC147;
+}
+.junior-highschool .class-box .box-title{
+  background-color: #35BBC6;
+}
+.advanced .class-box .box-title{
+  background-color: #BA1011;
+}
+.class-box .box-title h3{
+  font-size: 1.5625rem;
+  font-size: 25px;
+}
+.class-box .box-title h3 span{
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.class-content{
+  padding: 2.8125rem 5% 1.8rem;
+}
+.class-content > div{
+  display: inline-block;
+  text-align: left;
+}
+.class-box .label{
+  display: inline-block;
+  padding: 0.325em 1.25em;;
+  color: #fff;
+  font-size: 1.1em;
+
+}
+.class-box .skill .label-asterisk{
+  font-size: 0.8em;
+  display: block;
+  padding: 0.5em 0 0 1em;
+  margin-bottom: -1em;
+}
+.little-child .class-box .label{
+  background-color: #E44677;
+}
+.elementary .class-box .label{
+  background-color: #5EC147;
+}
+.junior-highschool .class-box .label{
+  background-color: #35BBC6;
+}
+.advanced .class-box .label{
+  background-color: #BA1011;
+}
+.class-content .content{
+  padding: 2rem 1.5rem 2.5rem;
+  font-size: 1em;
+}
+.class-content .content > ul > li{
+  margin-top: 0.625rem;
+}
+.each-objective > li dl{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: baseline;
+}
+.each-objective > li dt{
+  width: 100px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-size: 20px;
+}
+.elementary .each-objective > li dt{
+  color: #5EC147;
+}
+.junior-highschool .each-objective > li dt{
+  color: #35BBC6;
+}
+.advanced .each-objective > li dt{
+  color: #BA1011;
+}
+.each-objective > li dd{
+  padding-left: 1em;
+}
+.skill .content > ul > li{
+  position: relative;
+  padding-left: 1.5175rem;
+}
+.skill .content > ul > li::before{
+  position: absolute;
+  left: 3px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f00c';
+  font-size: 1.1em;
+}
+.little-child .skill .content > ul > li::before{
+  color: #E44677;
+  content: '\f0a4';
+}
+.elementary .skill .content > ul > li::before{
+  color: #5EC147;
+}
+.junior-highschool .skill .content > ul > li::before{
+  color: #35BBC6;
+}
+.advanced .skill .content > ul > li::before{
+  color: #BA1011;
+  content: '\f0a4';
+}
+.class-content ul li:first-child{
+  margin-top: 0;
+}
+.class-content .expression{
+  background-color: #ECE6CD;
+  margin: 0.5rem 0 1.425rem 1rem;
+  text-align: center;
+  font-size: 0.9em;
+}
+.class-content .expression-container{
+  display: table;
+  width: 100%;
+}
+.class-content .expression-container > div{
+  display: table-cell;
+  vertical-align: middle;
+}
+.class-content .expression-container > div:first-child{
+  width: 20%;
+}
+.class-content .expression h4{
+  font-size: 1.1625em;
+  font-weight: 700;
+}
+.class-content .expression ul{
+  display: inline-block;
+  text-align: left;
+  padding:0.9375rem 1.25rem;
+  margin-left: 1.25rem;
+  width: 100%;
+}
+.class-content .expression li{
+  margin-top: 0.425rem;
+  list-style: initial;
+}
+.class-content .expression li span,
+.skill .content > ul > li span{
+  color: #9E9E9E;
+}
+.next-class{
+  position: relative;
+  width: 100%;
+  height: 5rem;
+}
+.next-class::before{
+  content:"";
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 25%;
+  border-left: 8px dotted #ccc;
+  height: 100%;
+}
+.next-course{
+  position: relative;
+}
+.next-course h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.875rem;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.next-course a{
+  display: block;
+  border-bottom: 6.825rem solid transparent;
+  border-right: 6rem solid transparent;
+}
+.little-child .next-course a{
+  border-bottom-color: #5EC147;
+}
+.elementary .next-course a{
+  border-bottom-color: #35BBC6;
+}
+.junior-highschool .next-course a{
+  border-bottom-color: #BA1011;
+}
+.next-course > div{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 6rem;
+  height: 6.825rem;
+  border-bottom: 6.825rem solid transparent;
+  border-right: 6rem solid transparent;
+}
+section.voice{
+  background-color: #fff;
+}
+.voice .voice-title{
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.voice .voice-title-box{
+  max-width: 480px;
+  margin: 0 auto;
+}
+.voice .img-voice-title{
+  width: 100%;
+  padding-top: calc(68 / 500 * 100%);
+  background: center/ cover no-repeat url(../images/img-voice-title.jpg);
+}
+.voice-panel{
+  padding: 80px 0;
+}
+.voice-panel ul >li:not(.first){
+  margin-top: 50px;
+}
+.voice-panel .panel-item{
+  max-width: 860px;
+  margin: 0 auto;
+}
+.voice-panel .panel-item::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.student-voice-panel{
+  background-color: #FECC53;
+}
+.parent-voice-panel{
+  background-color: #61E8D2;
+}
+.voice-panel .panel-item dt{
+  float: left;
+  width: 20%;
+}
+.voice-panel .panel-item .box-p-icon{
+  width: 100%;
+  padding: 0 25px 15px 25px;
+}
+.voice-panel .panel-item .img-p-icon{
+  width: 100%;
+  border-radius: 50%;
+  box-sizing: content-box;
+  padding-top: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.voice-panel .panel-item .outline-pale-pink{
+  border: 2px solid #ff8080;
+}
+.voice-panel .panel-item .outline-pale-blue{
+  border: 2px solid #8080ff;
+}
+.voice-panel .panel-item .little-child-male{
+  background-image: url(../images/img-little-child-male.jpeg);
+}
+.voice-panel .panel-item .little-child-female{
+  background-image: url(../images/img-little-child-female.jpeg);
+}
+.voice-panel .panel-item .junior-student-male{
+  background-image: url(../images/img-junior-student-male.jpeg);
+}
+.voice-panel .panel-item .junior-student-female{
+  background-image: url(../images/img-junior-student-female.jpeg);
+}
+.voice-panel .panel-item .senior-student-male{
+  background-image: url(../images/img-senior-student-male.jpeg);
+}
+.voice-panel .panel-item .senior-student-female{
+  background-image: url(../images/img-senior-student-female.jpeg);
+}
+.voice-panel .panel-item .adult-male{
+  background-image: url(../images/img-adult-male.jpeg);
+}
+.voice-panel .panel-item .adult-female{
+  background-image: url(../images/img-adult-female.jpeg);
+}
+.voice-panel .panel-item .p-info{
+  text-align: center;
+}
+.voice-panel .panel-item .p-info >p >span{
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.box-balloon{
+  text-indent: 1em;
+  position: relative;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: calc(20% + 30px);
+  min-height: 100px;
+}
+.box-balloon::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -25px;
+  top: 50px;
+  border-right: 25px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+/*------- Lesson Fee------*/
+section.lesson-fee{
+  background: #fff;
+}
+.lesson-fee .content-title h2{
+  padding-top: 25px;
+}
+.table-wrapper{
+  padding:0 0 3rem;
+  border-bottom: 1px solid #707070;
+  font-size: 1rem;
+  font-size: 16px;
+}
+.lesson-fee table{
+  width: 100%;
+}
+.lesson-fee thead th{
+  width: 25%;
+}
+.lesson-fee th{
+  border-left: 3px solid #fff;
+  background-color: #E2E6EC
+}
+.lesson-fee th:first-child{
+  border-left: none;
+}
+.lesson-fee .th-inner{
+  text-align: center;
+  padding: 1.25em 0.5em;
+  font-weight: 700;
+}
+.lesson-fee .th-inner span{
+  font-size: 1.2em;
+}
+.lesson-fee td{
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  background-color: rgba(144, 209, 198, 0.3);
+  text-align: center;
+  vertical-align: middle;
+}
+.lesson-fee td:first-child{
+  border-left: none;
+  color: #fff;
+}
+.little-child tbody td:first-child{
+  background-color: #FF99CA;
+}
+.elementary tbody td:first-child{
+  background-color: #89d278;
+}
+.junior-highschool tbody td:first-child{
+  background-color: #35BBC6;
+}
+.advanced td:first-child{
+  background-color: #BA1011;
+  color: #fff;
+}
+.lesson-fee .td-inner{
+  padding: 1.8em 0.5em;
+}
+.lesson-fee td:first-child .td-inner{
+  font-weight: 700;
+}
+.lesson-fee .td-inner span{
+  font-size: 0.85rem;
+  font-size: 13.6px;
+}
+.lesson-fee .td-inner strong{
+  font-size: 1.25em;
+}
+.lesson-fee .row-combine .td-inner p{
+  padding: 0 5px;
+  font-size: 10px;
+}
+.lesson-fee .td-inner .for-link a {
+  text-decoration:underline;
+  color: #007bff;
+}
+.asterisk{
+  padding: 1.25rem 2% 0;
+  font-size: 0.95em;
+}
+.asterisk > ul{
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 0;
+}
+.asterisk > ul > li .schedule-link{
+  margin-right: 1.5rem;
+}
+.asterisk p{
+  padding: 1em 0 2.5em 1em;
+}
+.asterisk p.lb{
+  padding-bottom: 1.5em;
+}
+.asterisk h4{
+  font-size: 1.2rem;
+  font-size: 19.2px;
+}
+.for-schedule{
+  padding-bottom: 2rem;
+}
+
+/*------------------------- LessonFee Page ------------------------------ */
+
+.feetable-img{
+  padding-bottom:3.75rem;
+}
+.img-lessonfee-table{
+  width: 100%;
+  padding-top: calc(479 / 1000 * 100%);
+  background: center/ cover no-repeat url(../images/lessonfee-table.jpg);
+}
+.feetable-img .content-title h3{
+  padding: 20px 0;
+  font-weight: 700;
+}
+.feetable-img > p{
+  padding-left: 1em;
+  padding-top: 0.85em;
+}
+.feetable-img > p span{
+  margin-left: 0.5em;
+}
+.asterisk h4 span{
+  background:linear-gradient(transparent 75%, #fff799 75%);
+  font-weight:700;
+  margin-left: 0.5em;
+}
+.fee-page .table-wrapper{
+  padding: 1.8125rem 0 5.5625rem;
+}
+.lesson-fee .th-inner{
+  font-size: 0.75rem;
+  font-size: 12px;
+}
+.fee-page .lesson-fee tbody .td-inner{
+  padding: 1.25em 0.25em;
+  vertical-align: top;
+}
+.fee-page tbody tr td:first-child{
+  color: #fff;
+}
+.fee-page tbody tr:first-child td:first-child{
+  background-color: #FF99CA;
+}
+.fee-page tbody tr:nth-child(2) td:first-child,
+.fee-page tbody tr:nth-child(3) td:first-child{
+  background-color: #7ED955;
+}
+.fee-page tbody tr:nth-child(4) td:first-child{
+  background-color: #35BBC6;
+}
+.fee-page tbody tr:nth-child(5) td:first-child{
+  background-color: #BA1011;
+}
+
+/* ---------------------- Iinteraciton Project Page ------------------------ */
+
+.precedent-cases > .inner{
+  max-width: 1140px;
+}
+.precedent-cases .grid-container{
+  padding-top: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.precedent-cases .grid-item{
+  padding: 0 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.precedent-cases .grid-item .item-inner{
+  width: 100%;
+  box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+.img-project{
+  width: 100%;
+  padding-top: calc(450 / 720 * 100%);
+}
+.img-project-item1{
+  background: center/ cover no-repeat url(../images/Newyears_Show-off.jpg);
+}
+.img-project-item2{
+  background: center/ cover no-repeat url(../images/Card-exchange.jpg);
+}
+.img-project-item3{
+  background: center/ cover no-repeat url(../images/Mysterycountry_India.jpg);
+}
+.img-project-item4{
+  background: center/ cover no-repeat url(../images/CookingSession-withRussia.jpg);
+}
+.img-project-item5{
+  background: center/ cover no-repeat url(../images/ChristmasTour_from-Argentina.jpg);
+}
+.img-project-item6{
+  background: center/ cover no-repeat url(../images/internationalpeaceday-project.jpg);
+}
+.img-project-item7{
+  background: center/ cover no-repeat url(../images/Presentation_with_Ghana.jpg);
+}
+.img-project-item8{
+  background: center/ cover no-repeat url(../images/discussion.jpg);
+}
+.img-project-item9{
+  background: center/ cover no-repeat url(../images/role-playing-interaction.jpg);
+}
+.precedent-cases .grid-item .content{
+  padding: 30px 6%;
+}
+.precedent-cases .target >ul >li{
+  display: inline-block;
+  color: #FFC025;
+  font-size: 13.5px;
+}
+.precedent-cases .target >ul >li:first-child{
+  margin-right: 10px;
+}
+.precedent-cases .target span{
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3.5px 20px;
+  color: #fff;
+  border-radius: 30px;
+  background: #FFC025;
+}
+.precedent-cases .grid-item h5{
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+.precedent-cases .grid-item .item-inner p{
+  text-align: left;
+  padding: 2em 0;
+}
+.precedent-cases .grid-item .open-btn{
+  text-align: right;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.precedent-cases .grid-item > div a{
+  font-size: 0.9em;
+}
+.btn-flat {
+  padding: 0.5em 3em;
+  letter-spacing: -0.01em;
+}
+.modal_content{
+  padding-bottom: 50px;
+}
+/* Slick Slide Setting */
+.vertical-slide figure{
+  -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  width: 100%;
+  height: 0;
+  padding-top: calc(540 / 960 * 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vertical-slide .slide-01{
+  background-image: url(../images/CookingSession-withRussia-2.jpg);
+}
+.vertical-slide .slide-02{
+  background-image: url(../images/CookingSession-withRussia-3.jpg);
+}
+.vertical-slide .slide-03{
+  background-image: url(../images/CookingSession-withRussia-4.jpg);
+}
+.vertical-slide .slick-arrow_prev,
+.vertical-slide .slick-arrow_next {
+  position: absolute;
+  bottom: -60px;
+  cursor: pointer;
+  z-index: 10;
+  width: 50px;
+  transform:rotate(90deg);
+}
+.vertical-slide .slick-arrow_prev {
+  left: 40%;
+}
+.vertical-slide .slick-arrow_next {
+  right: 40%;
+}
+
+/*--------------------------- Entry Flow Page -------------------------------*/
+
+section.entry-flow .inner .container{
+  max-width: 600px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.flow > li {
+  position: relative;
+}
+.flow > li:not(:last-child) {
+  margin-bottom: 40px;
+}
+.flow > li:not(:first-child)::before {
+  content: "";
+  height: 60px;
+  display: block;
+  border-left: 4px dotted #e5e5e5;
+  position: absolute;
+  top: -40px;
+  left: 64.5px;
+  z-index: 10;
+}
+.flow > li .flow-box{
+  width: 100%;
+  padding: 20px 30px;
+  border: 2px solid rgb(242, 135, 5);
+  border-radius: 10px;
+  position: relative;
+}
+.flow > li dl {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flow > li:not(:last-child) .flow-box::before,
+.flow > li:not(:last-child) .flow-box::after {
+  content: "";
+  border: solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.flow > li:not(:last-child) .flow-box::before {
+  border-width: 22px;
+  border-top-color: rgb(242, 135, 5);
+}
+.flow > li:not(:last-child) .flow-box::after {
+  border-width: 19.5px;
+  border-top-color: #fff;
+}
+
+.flow > li dl dd{
+  margin-left: 1em;
+}
+.flow > li dl dd div {
+  font-size: 1.25rem;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: rgb(242, 135, 5);
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+}
+.flow > li p{
+  display: block;
+  padding: 10px 35px 0;
+}
+.flow > li p span{
+  display: inline-block;
+}
+.flow > li:first-child p{
+  padding-bottom: 60px;
+}
+.flow > li dl dt .icon {
+  font-size: 12px;
+  color: #fff;
+  background: rgb(242, 135, 5);
+  background: -moz-linear-gradient(left, rgba(242, 135, 5,1) 0%, rgba(255, 192, 37,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(242, 135, 5,1) 0%,rgba(255, 192, 37,1) 100%);
+  background: linear-gradient(to right, rgba(242, 135, 5,1) 0%,rgba(255, 192, 37,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b90db', endColorstr='#66d5e9',GradientType=1 );
+  padding: 5px 10px;
+  display: block;
+  border-radius: 20px;
+  position: relative;
+  z-index: 100;
+}
+.flow > li dl dt dd{
+  display: block;
+}
+.flow .trial-lesson{
+  background: #F28705;
+  top: auto;
+  right: auto;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 14px;
+  padding: 10px 8px;
+  border-radius: 4px;
+}
+
+/*--------------------------- Curriculum Page -------------------------------*/
+
+.curriculum .container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.curriculum .flex-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+.curriculum-content:first-child{
+  padding-bottom: 3.25rem;
+}
+.curriculum-content .about-content{
+  padding: 0 1.25rem;
+}
+.curriculum-content h2{
+  font-size: 2.5rem;
+  font-size: 40px;
+  margin-bottom: 1em;
+  padding: 0 1.25rem;
+}
+.curriculum-content .content-item{
+  padding: 2.5rem 1.75rem;
+}
+.curriculum-content .content-item,
+.curriculum-content .about-content{
+  width: 50%;
+}
+.curriculum-content .image-box{
+  position: relative;
+}
+.curriculum-content .image{
+  width: 100%;
+  padding-top: calc(250/450 * 100%);
+  border: 1px solid #e5e5e5;
+}
+.curriculum-content:first-child .image{
+  background: url(../images/stepup_curriculum_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.curriculum-content:nth-child(2) .image{
+  background: url(../images/classification.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/*------------------------- Media Query ------------------------------------*/
+
+@media screen and (min-width: 426px){
+  .activity-panel {
+    padding: 80px 0;
+  }
+  .activity-panel .content-box h3 {
+    margin: 0 0 1.5em;
+  }
+  .table-wrapper{
+    font-size: 0.895em;
+  }
+  .lesson-fee th{
+    border-left: 2px solid #fff;
+  }
+  .lesson-fee .th-inner{
+    padding: 1.25em 0.5em;
+  }
+  .fee-page .lesson-fee .th-inner {
+    font-size: 0.825rem;
+    font-size: 13.2px;
+  }
+  .lesson-fee td{
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+  }
+  .lesson-fee .td-inner{
+    padding: 1.8em 0.5em;
+  }
+  .lesson-fee .td-inner span{
+    font-size: 1rem;
+    font-size: 16px;
+  }
+  .lesson-fee .td-inner strong{
+    font-size: 1.25em;
+  }
+  .lesson-fee .row-combine .td-inner p{
+    font-size: 1em;
+  }
+
+  .asterisk p{
+    padding: 1em 0 2.2em 1em;
+  }
+  .asterisk h4{
+    font-size: 1.125rem;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .activity-panel h2 {
+    font-size: 2rem;
+    font-size: 32px;
+  }
+  .activity-colum{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .activity-panel .content-box h3 {
+    font-size: 1.125rem;
+    font-size: 18px;
+    margin: 0.5em 0 1em;
+  }
+  .activity-panel  .others{
+    font-size: 0.9rem;
+    font-size: 14.4px;
+  }
+  .box-balloon{
+    min-height: 85px;
+  }
+  .box-balloon::before{
+    top: 30px;
+  }
+  .table-wrapper{
+    font-size: 0.95em;
+  }
+  .lesson-fee .th-inner{
+    padding: 1.25em 0.5em;
+  }
+  .lesson-fee .th-inner {
+    font-size: 0.95rem;
+    font-size: 15.2px;
+  }
+  .lesson-fee .th-inner span{
+    font-size: 1.2em;
+  }
+  .lesson-fee .td-inner span{
+    font-size: 1.125rem;
+    font-size: 18px;
+  }
+  .lesson-fee .td-inner strong{
+    font-size: 1.35em;
+  }
+  .precedent-cases .grid-container{
+    padding-top: 25px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .precedent-cases .grid-item{
+    padding: 0 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 769px){
+  .flow .trial-lesson:hover{
+    opacity: 0.5;
+  }
+  .next-course a:hover{
+    opacity: 0.8;
+  }
+  .lesson-fee .td-inner .for-link a:hover{
+    color: #0056b3;
+  }
+}
+
+@media (min-width: 992px){
+  .box-balloon{
+    min-height: 125px;
+  }
+  .box-balloon::before{
+    top: 50px;
+  }
+  .table-wrapper{
+    font-size: 1em;
+  }
+  .lesson-fee th{
+    border-left: 3px solid #fff;
+  }
+  .lesson-fee .th-inner{
+    padding: 1.25em 0.5em;
+    font-size: 1.125rem;
+    font-size: 18px;
+  }
+  .lesson-fee .th-inner span{
+    font-size: 1.5em;
+  }
+  .lesson-fee td{
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+  }
+  .lesson-fee .td-inner span{
+    font-size: 1.25rem;
+    font-size: 20px;
+  }
+  .precedent-cases .grid-container{
+    padding-top: 25px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .precedent-cases .grid-item{
+    padding: 0 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .precedent-cases .grid-item .item-inner {
+    box-shadow: 0 7px 34px transparent, 0 3px 6px transparent;
+  }
+  .precedent-cases .grid-item .item-inner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    transition: all .3s;
+  }
+  .precedent-cases .grid-item h5{
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .flow .trial-lesson:active{
+    opacity: 0.5;
+  }
+  .next-course a:active{
+    opacity: 0.8;
+  }
+  .lesson-fee .td-inner .for-link a:active{
+    color: #0056b3;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .page-title{
+    margin-top: 60px;
+    padding-top: 25px;
+  }
+  .page-title h1 {
+    font-size: 2rem;
+    font-size: 36px;
+    padding-top: 3.15rem;
+    margin-bottom: 0.9375rem;
+  }
+  .page-title p{
+    font-size: 0.85rem;
+    font-size: 13.6px;
+  }
+  .class-outline{
+    padding: 4.25rem 0;
+  }
+  .class-outline h3 {
+    font-size: 1.375rem;
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .lesson-info .content-title h2{
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+  .activity-panel  .others{
+    padding-top: 0;
+  }
+  .class-box .box-title h3 {
+    font-size: 1.375rem;
+    font-size: 22px;
+  }
+  .class-content .content {
+    padding: 2rem 0 2.5rem;
+  }
+  .each-objective > li dt{
+    font-size: 1.125rem;
+    font-size: 18px;
+  }
+  .class-content  .expression{
+    padding: 0.9375rem 1.5rem;
+  }
+  .class-content .expression-container{
+    display: block;
+    width: 100%;
+  }
+  .class-content .expression-container > div{
+    display: block;
+  }
+  .class-content .expression-container > div:first-child{
+    width: auto;
+  }
+  .class-content .expression ul{
+    display: inline-block;
+    text-align: left;
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .class-content  .expression h4{
+    text-align: left;
+  }
+  .next-course h3{
+    font-size: 1.375rem;
+    font-size: 22px;
+  }
+  .next-course a{
+    border-bottom: 5.6875rem solid #68e857;
+    border-right: 5rem solid transparent;
+  }
+  .next-course > div{
+    width: 5rem;
+    height: 5.6875rem;
+    border-bottom: 5.6875rem solid transparent;
+    border-right: 5rem solid transparent;
+  }
+  .voice .voice-title-box{
+    max-width: 380px;
+  }
+  .voice-panel{
+    padding: 60px 0;
+  }
+  .voice-panel .panel-item dt{
+    float: none;
+    width: 100%;
+  }
+  .voice-panel .panel-item .icon-part{
+    display: flex;
+    align-items: center;
+  }
+  .voice-panel .panel-item .box-p-icon{
+    padding: 15px;
+    width: 25%;
+  }
+  .voice-panel .panel-item .p-info{
+    text-align: left;
+    padding: 15px;
+  }
+  br.under-mid{
+    display: none;
+  }
+  .box-balloon{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .box-balloon::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: -35px;
+    left: 10%;
+    border-bottom: 20px solid #fff;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+  }
+  .asterisk h4{
+    font-size: 1.125rem;
+    font-size: 18px;
+  }
+  .asterisk > ul{
+    display: block;
+    padding: 1.5rem 0;
+  }
+  .asterisk > ul > li a{
+    max-width: 450px;
+  }
+  .asterisk > ul > li .schedule-link{
+    margin-bottom: 1.5rem;
+    margin-right: auto;
+  }
+  .table-wrapper{
+    padding-bottom: 2.2rem;
+  }
+  .feetable-img {
+    padding-bottom: 2.5rem;
+  }
+  .fee-page .table-wrapper{
+    padding: 2.125rem 0 4.25rem;
+  }
+  .vertical-slide .slick-arrow_prev {
+    left: 25%;
+  }
+  .vertical-slide .slick-arrow_next {
+    right: 25%;
+  }
+  .curriculum .flex-wrapper{
+    display: block;
+  }
+  .curriculum-content h2{
+    font-size: 2rem;
+    font-size: 32px;
+  }
+  .curriculum-content .content-item,
+  .curriculum-content .about-content{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .page-title{
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+  }
+  .page-title h1{
+    font-size: 1.8rem;
+    font-size: 28.8px;
+  }
+  .activity-panel {
+    padding: 60px 0;
+  }
+  .activity-panel h2 {
+    font-size: 2rem;
+    font-size: 36px;
+    margin-top: 0;
+  }
+  .activity-panel .content-box h3 {
+    font-size: 1.2rem;
+    font-size: 19.2px;
+    margin: 0 0 1.5em;
+  }
+  .activity-panel  .others{
+    padding-top: 0;
+  }
+  .activity-panel  .others{
+    font-size: 0.95rem;
+    font-size: 15.2px;
+  }
+  .class-box .box-title h3{
+    font-size: 1.145rem;
+    font-size: 18.32px;
+  }
+  .class-content .content {
+    padding: 1.75rem 0 2rem;
+  }
+  .each-objective > li dl{
+    display: block;
+  }
+  .each-objective > li dt{
+    font-size: 1.1rem;
+    font-size: 17.6px;
+    width: 100%;
+  }
+  .each-objective > li dt br{
+    display: none;
+  }
+  .each-objective > li dd {
+    padding-left: 0;
+  }
+  .class-content  .expression{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .class-content .expression ul{
+    padding-left: 1rem;
+  }
+  .next-class {
+    height: 3rem;
+  }
+  .next-course h3 {
+    font-size: 1.25rem;
+    font-size: 20px;
+    left: 20%;
+    transform: translate(-20%, -50%);
+  }
+  .next-course a{
+    border-bottom: 5rem solid #68e857;
+    border-right: 3.75rem solid transparent;
+  }
+  .next-course > div{
+    width: 3.75rem;
+    height: 5rem;
+    border-bottom: 5rem solid transparent;
+    border-right: 3.75rem solid transparent;
+  }
+  .voice .voice-title-box{
+    max-width: 285px;
+  }
+  .voice .voice-title {
+    margin-bottom: 20px;
+  }
+  .voice-panel .panel-item .box-p-icon{
+    width: 100px;
+  }
+  .box-balloon{
+    padding: 15px;
+  }
+  .box-balloon::before{
+    left: 37.5px;
+  }
+  .table-wrapper,
+  .asterisk{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .feetable-img {
+    padding-bottom: 1.95rem;
+  }
+  .feetable-img > p{
+    padding-left: 0;
+  }
+  .fee-page .table-wrapper{
+    padding: 1.5rem 0 3.5625rem;
+  }
+  .flow{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .flow > li dl dd div{
+    font-size: 1.125rem;
+    font-size: 18px;
+  }
+  .flow > li .flow-box{
+    padding: 20px;
+  }
+  .flow > li p {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .flow > li:not(:first-child)::before {
+    left: 54.5px;
+  }
+  .precedent-cases .grid-container{
+    padding-top: 20px;
+    margin: 0;
+  }
+  section.entry-flow .inner .container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .curriculum-content:first-child{
+    padding-bottom: 1.5rem;
+  }
+  .curriculum-content .about-content{
+    padding: 0;
+  }
+  .curriculum-content h2{
+    font-size: 1.5rem;
+    font-size: 26px;
+    padding: 0;
+  }
+  .curriculum-content .content-item{
+    padding: 2rem 0 2.5rem;
+  }
+  .precedent-cases .grid-item{
+    padding: 0 3%;
+  }
+}
+
+.information{
+  padding-top: 20px;
+}
