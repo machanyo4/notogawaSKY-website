@@ -1,0 +1,952 @@
+
+/* ------------------------- carousel ----------------------------------*/
+
+.carousel{
+  margin-bottom: 95px;
+}
+.carousel-inner .item{
+  position: relative;
+  width: 100%;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
+}
+.carousel-inner .item::before{
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+.intro-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro-section::before{
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+}
+.item-1{
+  background-image:url(../images/top-slide1.jpg);
+  background-position: 40% bottom;
+}
+.item-2{
+  background-image: url(../images/top-slide2.jpg);
+  background-position: center top;
+}
+.item-3{
+  background-image: url(../images/top-slide3.jpg);
+  background-position: center top;
+}
+.item-4{
+  background-image: url(../images/top-slide4.jpg);
+  background-position: center top;
+}
+
+.item-inner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.item-catchphrase{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.item-catchphrase h1{
+  color: #fff;
+  font-size: 3.47vw;
+  font-weight: 900;
+  line-height: 1.8;
+  text-align: center;
+}
+/*----- Bootstrap Modification Part ------*/
+.carousel-control-next, .carousel-control-prev{
+  background: rgba(255, 192, 37, 0.8);
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background: rgba(255, 192, 37, 1);
+  opacity: 1;
+}
+.carousel-indicators{
+  bottom: 5%;
+}
+
+@media only screen and (min-width: 769px){
+  .carousel-control-next, .carousel-control-prev{
+    width: 45px;
+    height: 45px;
+  }
+  .carousel-indicators li{
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+}
+@media only screen and (min-width: 920px){
+  .carousel-control-next{
+    right: 5%;
+  }
+  .carousel-control-prev{
+    left: 5%;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    width: 50px;
+    height: 50px;
+  }
+  .carousel-indicators li{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .carousel-control-next, .carousel-control-prev{
+    width: 60px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .carousel-indicators li{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .carousel{
+    margin-bottom: 30px;
+  }
+  .carousel-inner{
+    margin-top: 60px;
+  }
+  .carousel-inner .item::before{padding-top:75%
+  }
+  .item-catchphrase {
+    width: 70%;
+  }
+  .item-catchphrase h1{
+    font-size: 5vw;
+  }
+
+  /*--- Bootstrap Modification Part ----*/
+  .carousel-control-next, .carousel-control-prev{
+    width: 38px;
+    height: 38px;
+  }
+  .carousel-indicators{
+    bottom: 5%;
+  }
+}
+@media only screen and (max-width: 425px){
+  .carousel-inner .item::before{
+    padding-top:115%
+  }
+  .item-catchphrase {
+    width: 85%;
+  }
+  .item-catchphrase h1{
+    font-size: 6vw;
+  }
+  .carousel-indicators li{
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+  }
+}
+
+/*------------------------- Common Component ---------------------------*/
+
+.top-page section > .inner > .container{
+  padding-bottom: 100px;
+}
+
+/* -----------------------  Intro Area ------------------------------------ */
+.entrance .intro-wrapper{
+  padding: 30px 0;
+}
+.slogan h1{
+  color: #000;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 2;
+}
+.slogan h1:nth-child(2){
+  font-weight: 700;
+  font-size: 40px;
+}
+.slogan h1:nth-child(3){
+  font-size: 70px;
+}
+.slogan .sm-word{
+  font-weight: 700;
+  font-size: 40px;
+}
+.our-style{
+  margin-top: -20px;
+}
+.our-style .background{
+  opacity: 0.6;
+  width: 100%;
+}
+.img-ourstyle{
+  width: 100%;
+  padding-top: calc(433 / 1000 * 100%);
+  background: center/ cover no-repeat url(../images/ourstyle-bg.jpeg);
+}
+.our-style .content{
+  width: 100%;
+  margin-top: -25.75%;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+.img-component-1{
+  width: 100%;
+  padding-top: calc(572 / 959 * 100%);
+  background: center/ cover no-repeat url(../images/component-1.png);
+}
+.our-style .content h3{
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  font-weight: 900;
+}
+
+/*----------------------------- Feature Area ------------------------------*/
+
+/* .feature-area{
+  background: url(../images/feature-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position:left center;
+  position: relative;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+.feature-area::before{
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+.feature-area .container{
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+.feature-area .content-title{
+  padding: 20px 20px;
+  margin-bottom: 100px;
+  display: inline-block;
+  /* background-color: #fff;
+  border: 4px solid #FFC025;
+  box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%); */
+}
+.feature-area .content-title h2{
+  padding: 0;
+  margin: 0;
+  font-weight: 900;
+}
+.feature-area .content-title img{
+  width: 95.825%;
+  margin-bottom: 5px;
+}
+.feature-wrapper{
+  text-align: center;
+}
+.feature-box{
+  background: #fff;
+  display: flex;
+  margin-bottom: 42px;
+  box-shadow: 1rem 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+}
+.feature-box:last-child{
+  margin-bottom: 0;
+}
+.feature-box .heading{
+  padding: 0 5%;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.feature-box .heading::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+}
+.feature-box:nth-child(2) .heading{
+  background: center/ cover no-repeat url(../images/feature-item1.jpg);
+}
+.feature-box:nth-child(3) .heading{
+  background: center/ cover no-repeat url(../images/feature-item2.jpg);
+}
+.feature-box:nth-child(4) .heading{
+  background: center/ cover no-repeat url(../images/feature-item3.jpg);
+}
+.feature-box:nth-child(5) .heading{
+  background: center/ cover no-repeat url(../images/feature-item4.jpeg);
+}
+.feature-box:nth-child(6) .heading{
+  background: center/ cover no-repeat url(../images/feature-item5.jpg);
+}
+.feature-box:last-child .heading{
+  background: center/ cover no-repeat url(../images/feature-item6.jpeg);
+}
+.feature-box .heading div{
+  width: 100%;
+}
+.feature-box .sub-heading{
+  margin-bottom: 8px;
+}
+.feature-box .heading h3{
+  text-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.3);
+}
+.feature-box > div,
+.feature-box > a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open-window:hover > .heading-container{
+  display: none;
+}
+.feature-box .text{
+  padding: 3%;
+  text-align: left;
+}
+.feature-box .text p{
+  padding: 20px 0;
+}
+.feature-box .text .insta-wrapper{
+  text-align: center;
+}
+.feature-box .text .insta-link{
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 0 35px 60px;
+  margin-left: 15px;
+  position: relative;
+}
+.feature-box .text .insta-link span{
+  padding-left: 20px;
+  position: relative;
+  color: #000;
+}
+.feature-box .text .insta-link span::after{
+  font-family: "Font Awesome 5 Free";
+  content: "\f0a5";
+  font-weight: 900;
+  font-size: 16px;
+  position: absolute;
+  top: -5px;
+  left:0px;
+}
+.feature-box .insta-icon{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.feature-box .insta-link::before{
+}
+.feature-box .btn-wrapper{
+  text-align: center;
+
+}
+.feature-btn{
+  display: inline-block;
+  width: 220px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 auto 20px auto;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #FFC025;
+  border: 1px solid #FFC025;
+  border-radius: 0;
+}
+.modal_content .case{
+  padding-bottom: 48px;
+}
+.modal_content .case h3{
+  margin: 1.75rem 0 1.25rem;
+}
+.img-feature-item3-modal{
+  width: 100%;
+  padding-top: calc(507 / 914 * 100%);
+  background: center/ cover no-repeat url(../images/feature-item3-modal.jpg);
+}
+.img-feature-item3_sp-modal{
+  width: 100%;
+  padding-top: calc(405 / 720 * 100%);
+  background: center/ cover no-repeat url(../images/feature-item3_sp.jpg);
+}
+
+/* ---------------------------- Teacher Area ----------------------------*/
+
+.teacher-wrapper{
+  margin-top: 50px;
+}
+.teacher-wrapper h3{
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #FFC025;
+  margin-bottom: 13px;
+}
+.teacher-wrapper h3 span{
+  font-size: 18px;
+  margin-left: -10px;
+  letter-spacing: -0.1em;
+}
+.teacher-wrapper .image{
+  position: absolute;
+  top: 220px;
+  right: 15px;
+  width: 380px;
+}
+.img-teacher{
+  width: 100%;
+  padding-top: 100%;
+  background: center/ cover no-repeat url(../images/teacher1.jpg);
+}
+.teacher-wrapper .text > p{
+  font-size: 1.125rem;
+}
+.teacher-wrapper .profile,
+.teacher-wrapper .qualification{
+  padding-top: 15px;
+}
+.teacher-wrapper .profile p{
+  margin-bottom: 5px;
+}
+.teacher-wrapper .profile,
+.teacher-wrapper .qualification{
+  font-size: 0.85em;
+}
+.teacher-wrapper .message{
+  padding-top: 80px;
+  line-height: 1.8;
+}
+.teacher-wrapper .message >p{
+  text-indent: 1em;
+  margin-bottom: 0.5em;
+}
+.teacher-wrapper .message h4{
+  position: relative;
+  padding:0.5em 1em;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 1.7;
+}
+.teacher-wrapper .message h4:before,
+.teacher-wrapper .message h4:after {
+  content:'';
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+}
+.teacher-wrapper .message h4:before {
+  border-left: solid 3px #FFC025;
+  border-top: solid 3px #FFC025;
+  top:0;
+  left: 0;
+}
+
+.teacher-wrapper .message h4:after {
+  border-right: solid 3px #FFC025;
+  border-bottom: solid 3px #FFC025;
+  bottom:0;
+  right: 0;
+}
+/*--------------------------------- Classes Area ----------------------------*/
+.classes-wrapper .grid-container{
+  justify-content: center;
+  padding: 25px 0 50px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.classes-wrapper .grid-item {
+  padding: 0;
+}
+.classes-wrapper .img-class::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(64, 64, 64, .1);
+}
+.grid-style{
+  position: relative;
+  margin: 2.5px;
+}
+.grid-style >div{
+  width: 100%;
+  padding-top: 100%;
+}
+.class-info{
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 100%;
+  padding:0 15px;
+}
+.class-info h3{
+  font-weight: 700;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.class-info .level-display{
+  padding-top: 20px;
+  font-weight: 700;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.img-class{
+  width: 100%;
+  padding-top: 100%;
+  opacity: 0.85;
+}
+.img-littlechild-class{
+  background: center/ cover no-repeat url(../images/1stgrade-drawing-SDGsposters.jpg);
+}
+.img-elementary-class{
+  background: center/ cover no-repeat url(../images/elementary-class.jpg);
+}
+.img-juniorhighshool-class{
+  background: center/ cover no-repeat url(../images/juniorhigh-class.jpg);
+}
+.img-advanced-class{
+  background: center/ cover no-repeat url(../images/advanced-class.jpg);
+}
+.classes-wrapper .grid-item a{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+
+/*-------------------------------- Media Query --------------------------------*/
+
+@media (min-width: 426px){
+  .class-info h3 {
+    font-size: 22.5px;
+  }
+  .class-info .level-display {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px){
+  .feature-area .container{
+      max-width: 1000px;
+      padding: 0 6%;
+  }
+  .feature-box .heading {
+    width: 50%;
+  }
+  .feature-box .heading h3 {
+    font-size: 22px;
+  }
+  .feature-box .sub-heading img{
+    width: 40px;
+  }
+  .feature-box .text{
+    width: 50%;
+  }
+  .class-info h3{
+    font-size: 30px;
+  }
+  .class-info .level-display {
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .feature-box .insta-icon img:hover{
+    opacity: 0.5;
+  }
+  .feature-btn:hover{
+    color: #FFC025;
+    background-color: #fff;
+    border: 1px solid #FFC025;
+  }
+  .classes-wrapper .grid-item a:hover{
+    background: rgba(255, 91, 91, 1);
+  }
+  .classes-wrapper .grid-item a:hover .img-class{
+    opacity: .3;
+  }
+  .classes-wrapper .grid-item .trans-lt:hover{
+    transform: translate(-5px, -5px);
+  }
+  .classes-wrapper .grid-item .trans-rt:hover{
+    transform: translate(5px, -5px);
+  }
+  .classes-wrapper .grid-item .trans-lb:hover{
+    transform: translate(-5px, 5px);
+  }
+  .classes-wrapper .grid-item .trans-rb:hover{
+    transform: translate(5px, 5px);
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .feature-box{
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .feature-area .container{
+    padding: 0;
+  }
+  .feature-box .heading {
+    width: 47.5%;
+  }
+  .feature-box .heading h3 {
+    font-size: 25px;
+  }
+  .feature-box .sub-heading img{
+    width: 48px;
+  }
+  .feature-box .text{
+    width: 52.5%;
+  }
+
+}
+
+@media screen and (max-width: 991px){
+  .teacher-wrapper .image{
+    position: static;
+    width: auto;
+    max-width: 395px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px){
+  .feature-box .insta-icon img:active{
+    opacity: 0.5;
+  }
+  .feature-btn:active{
+    color: #FFC025;
+    background-color: #fff;
+    border: 1px solid #FFC025;
+  }
+  .classes-wrapper .grid-item a:active{
+    background: rgba(255, 91, 91, 1);
+  }
+  .classes-wrapper .grid-item a:active .img-class{
+    opacity: .3;
+  }
+}
+@media screen and (max-width: 767px){
+  .top-page section > .inner .container {
+    padding-bottom: 60px;
+  }
+/*-------------- Intro Area -----------*/
+  .entrance .intro-wrapper {
+    padding: 50px 0;
+  }
+  .slogan h1{
+    font-size: 31.85px;
+    line-height: 2;
+  }
+  .slogan h1:nth-child(2){
+    font-size: 25px;
+  }
+  .slogan h1:nth-child(3){
+    font-size: 48px;
+  }
+  .slogan .sm-word{
+    font-size: 25px;
+  }
+  .our-style {
+    margin-top: 0;
+  }
+  .our-style .content h3 {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    }
+
+/*----------Feature Area ----------------*/
+  .feature-area .container{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+  .feature-area .content-title{
+    margin-bottom: 80px;
+  }
+  .feature-box{
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  .feature-box .heading::before{
+    background: none;
+    width: 0;
+    height: 0;
+  }
+  .feature-box .heading,
+  .feature-box .text{
+    width: 100%;
+  }
+  .feature-box .heading {
+    padding: 30px 6% 25px;
+    background: transparent !important;
+    color: inherit;
+    opacity: 1;
+  }
+  .feature-box .heading h3 {
+    font-size: 19.5px;
+    color: #FFC025;
+    text-shadow: none;
+  }
+  .feature-box .sub-heading {
+    margin-bottom: 10px;
+  }
+  .feature-box .sub-heading img {
+    width: 38px;
+  }
+  .feature-box .heading > div{
+    width: 100%;
+    text-align: center;
+  }
+  .feature-img{
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  .feature-box:nth-child(4) .feature-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
+  }
+  .img-feature-item-1{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding-top: calc(768 / 1229 * 100%);
+    background: center/ cover no-repeat url(../images/feature-item1.jpg);
+  }
+  .img-feature-item-2{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding-top: calc(768 / 1229 * 100%);
+    background: center/ cover no-repeat url(../images/feature-item2.jpg);
+  }
+  .img-feature-item-3{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding-top: calc(768 / 1229 * 100%);
+    background: center/ cover no-repeat url(../images/feature-item3_sp.jpg);
+  }
+  .img-feature-item-4{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding-top: calc(768 / 1229 * 100%);
+    background: center/ cover no-repeat url(../images/feature-item4.jpeg);
+  }
+  .img-feature-item-5{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding-top: calc(768 / 1229 * 100%);
+    background: center/ cover no-repeat url(../images/feature-item5.jpg);
+  }
+  .img-feature-item-6{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding-top: calc(768 / 1229 * 100%);
+    background: center/ cover no-repeat url(../images/feature-item6.jpeg);
+  }
+  .feature-box .text p {
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .feature-box .text {
+    padding: 0 6%;
+    padding-bottom: 48px;
+  }
+  .feature-box .btn-wrapper {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+  }
+  .feature-btn{
+    margin-bottom: 0;
+  }
+  .feature-box .text .insta-link {
+    padding: 35px 15px 8px;
+    margin-right: auto;
+    font-size: 13px;
+    text-align: left;
+  }
+  .feature-box .text .insta-link::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .feature-box .text .insta-link span{
+    width: 148px;
+    float: right;
+    margin-left: 5px;
+  }
+  .feature-box .insta-icon{
+    float: right;
+    position: static;
+    display: inline-block;
+    margin-top: -8px;
+  }
+  .modal_content .case{
+    padding-bottom: 30px;
+  }
+  .modal_content .case h3{
+    font-size: 1.425rem;
+  }
+  /*----------------- Teacher Area -----------------*/
+  .teacher-wrapper h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  .teacher-wrapper h3 span {
+    font-size: 16px;
+  }
+  .teacher-wrapper .message {
+    padding-top: 35px;
+    line-height: 1.8;
+  }
+  .teacher-wrapper .message h4{
+    font-size: 1.25em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .entrance .intro-wrapper {
+    padding: 35px 0;
+  }
+  .content-title h3 img{
+    max-width: 226.98px;
+  }
+  .top-page section > .inner .container {
+    padding-bottom: 30px;
+}
+  .slogan h1{
+    font-size: 7.4vw;
+    letter-spacing: -0.05em;
+  }
+  .slogan h1:nth-child(2){
+    font-size: 5.3vw;
+  }
+  .slogan h1:nth-child(3){
+    font-size: 10.53vw;
+  }
+  .slogan .sm-word{
+    font-size: 5.3vw;
+  }
+  .our-style .content h3 {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .feature-area{
+    background-position: 65% center;
+  }
+  .modal_content .case{
+    padding-bottom: 30px;
+  }
+  .modal_content .case h3{
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  .teacher-wrapper h3 {
+    font-size: 20px;
+  }
+  .teacher-wrapper .message h4{
+    font-size: 1.25em;
+  }
+  .teacher-wrapper .message h4:before {
+    border-left: solid 2px #FFC025;
+    border-top: solid 2px #FFC025;
+    top:0;
+    left: 0;
+  }
+
+  .teacher-wrapper .message h4:after {
+    border-right: solid 2px #FFC025;
+    border-bottom: solid 2px #FFC025;
+    bottom:0;
+    right: 0;
+  }
+  .class-info h3 {
+    font-size: 25px;
+  }
+  .classes-wrapper .grid-container{
+    grid-column-gap: 0;
+    grid-template-columns: 280px;
+  }
+}
