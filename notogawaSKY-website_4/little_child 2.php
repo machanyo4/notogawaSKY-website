@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link crossorigin="anonymous" rel='stylesheet'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C600%7CUbuntu%3A400%2C400i%2C500%2C500i' type='text/css' media='all' />
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
-    <title>ベビー・幼児向けクラス： notogawa SKY English School</title>
+    <title>幼児向けクラス： notogawa SKY English School</title>
   </head>
   <body>
     <div class="wrapper">
@@ -52,9 +52,8 @@
             <div class="title-wrapper">
               <div class="inner">
                 <div class="container">
-                  <h1>ベビー・幼児向けクラス</h1>
-                  <p>ベビー・幼児を対象としたクラス（ベビー・たまご・ひよこ）についての紹介です</p>
-                  <p>※これらのクラスは親子での参加が必要となっております</p>
+                  <h1>幼児向けクラス</h1>
+                  <p>幼児を対象としたクラス（たまご・ひよこ）についての紹介です</p>
                 </div>
               </div>
             </div>
@@ -63,12 +62,7 @@
         <div class="class-outline">
           <div class="inner">
             <div class="container">
-              <h3>
-                <ul>
-                  <li>おうちでも楽しめる遊びやアクティビティの中で<br>楽しく英語や異文化に触れ英語のリズムを体に染み込ませる。</li>
-                  <li>小学生向けクラスへの「下地」を作る。</li>
-                </ul>
-              </h3>
+              <h3>おうちでも楽しめる遊びやアクティビティの中で楽しく英語や異文化に触れ<br>英語のリズムを体に染み込ませる。小学生向けクラスへの「下地」を作る</h3>
             </div>
           </div>
         </div>
@@ -78,7 +72,7 @@
           <div class="inner activity-inner">
             <div class="container">
               <div class="panel-content">
-                <h2 class="title">Activities</h2>
+                <h2 class="title">Activity</h2>
                 <div class="container-fluid">
                   <div class="row">
                     <div class="row-item activity-colum col-lg-4 col-md-4">
@@ -102,13 +96,13 @@
                         <div class="img-wrapper">
                           <div class="img-activity img-activity-item3"></div>
                         </div>
-                        <h3>動画コンテンツ<br><span>(歌・手遊び・エッグシェーカ等)</span></h3>
+                        <h3>動画コンテンツ<br><span>(ダンス・歌・チャンツ・アニメーション等)</span></h3>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="others">
-                  <p>他にもダンスや季節行事のイベントなど、楽しいアクティビティがたくさん！</p>
+                  <p>他にもクイズやミニゲーム、季節行事のイベントなど楽しいアクティビティがたくさん！</p>
                 </div>
               </div>
             </div>
@@ -119,57 +113,40 @@
             <div class="container">
               <div class="class-box">
                 <div class="box-title">
-                    <span class="title-accessary"><img src="images/class-accessary.png" width="85px"></span>
-                  <h3><span>ベビー</span>クラス</h3>
-                </div>
-                <div class="class-content">
-                  <div class="content-wrapper">
-                    <div class="objective">
-                      <span class="label">対象</span>
-                      <div class="content">
-                        <ul>
-                          <li>生後すぐ〜よちよち歩きのお子様</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="skill">
-                      <span class="label">レッスン詳細</span>
-                      <div class="content">
-                        <ul>
-                          <li>お子様を抱っこしながら・寝かせながらのリズム遊び、手遊び、エクササイズ</li>
-                          <li>仕掛け絵本や、簡単なリズム・言葉の繰り返しで読む絵本の読み聞かせ</li>
-                          <li>歌をリズムに乗って楽しむ</li>
-                          <li>五感を使った季節の感覚遊び</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="next-class">
-              </div>
-              <div class="class-box">
-                <div class="box-title">
-                  <span class="title-accessary"><img src="images/class-accessary.png" width="85px"></span>
                   <h3><span>たまご</span>クラス</h3>
                 </div>
                 <div class="class-content">
                   <div class="content-wrapper">
                     <div class="objective">
-                      <span class="label">対象</span>
+                      <span class="label">目的・目標</span>
                       <div class="content">
                         <ul>
-                          <li>一人でしっかり歩ける未就園のお子様</li>
+                          <li>「英語ってたのしい！」というワクワク感を感じる</li>
                         </ul>
                       </div>
                     </div>
                     <div class="skill">
-                      <span class="label">レッスン詳細</span>
+                      <span class="label">身に付く力</span>
                       <div class="content">
                         <ul>
-                          <li>お子様とふれあいながらのリズム遊び、手遊び、エクササイズ</li>
-                          <li>語数の少ない仕掛け絵本や、リズム・言葉の繰り返しで読む絵本の読み聞かせ</li>
-                          <li>簡単な歌を、リズムに乗りながら一緒に歌って楽しむ</li>
+                          <li>Yes[No]の返答と10までの数字がわかり、アルファベットの文字の形や発音を認識できる</li>
+                          <li>人と出会った時の最初と最後のあいさつ、簡単なやりとりがわかる</li>
+                          <div class="expression">
+                            <div class="expression-container">
+                              <div>
+                                <h4>表現例</h4>
+                              </div>
+                              <div>
+                                <ul>
+                                  <li>Hi[Hello]. <span>/</span> Bye[See you]. <span>/</span> Good morning[night].</li>
+                                  <li>How are you? <span>/</span> Good[Fine]. <span>/</span> Thank you[thanks]. </li>
+                                  <li>My name is[I am] ~. <span>/</span> I’m ~（歳）.</li>
+                                </ul>
+                              </div>
+                            </div>
+
+                          </div>
+                          <li>自分の国の名前や食べ物、動物、色、体の部位などの簡単な単語がわかる</li>
                         </ul>
                       </div>
                     </div>
@@ -180,27 +157,39 @@
               </div>
               <div class="class-box">
                 <div class="box-title">
-                  <span class="title-accessary"><img src="images/class-accessary.png" width="85px"></span>
                   <h3><span>ひよこ</span>クラス</h3>
                 </div>
                 <div class="class-content">
                   <div class="content-wrapper">
                     <div class="objective">
-                      <span class="label">対象</span>
+                      <span class="label">目的・目標</span>
                       <div class="content">
                         <ul>
-                          <li>幼稚園・保育園年少～年長のお子様</li>
+                          <li>「英語がわかる！言える！」のワクワク感を体感する</li>
                         </ul>
                       </div>
                     </div>
                     <div class="skill">
-                      <span class="label">レッスン詳細</span>
+                      <span class="label">身に付く力</span>
                       <div class="content">
                         <ul>
-                          <li>お子様とふれあいながら、または一緒の空間で楽しみながらのリズム遊び、手遊び、エクササイズ</li>
-                          <li>語数の少ない絵本や、リズム・表現の繰り返しで読む絵本の読み聞かせ</li>
-                          <li>リズムに乗りながら体などの動きと組み合わせて、簡単な歌を歌って楽しむ</li>
-                          <li>五感を使った季節の感覚遊び</li>
+                          <li>Yes[No]の返答と10までの数字が言え、アルファベットを正しく発音できる</li>
+                          <li>人と出会った時の最初と最後のあいさつ、簡単なやりとりが言える</li>
+                          <div class="expression">
+                            <div class="expression-container">
+                              <div>
+                                <h4>表現例</h4>
+                              </div>
+                              <div>
+                                <ul>
+                                  <li>Hi[Hello]. <span>/</span> Bye[See you]. <span>/</span> Good morning[night].</li>
+                                  <li>How are you? <span>/</span> Good[Fine]. <span>/</span> Thank you[thanks]. </li>
+                                  <li>My name is[I am] ~. <span>/</span> I’m ~（歳）.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <li>自分の国の名前や食べ物、動物、色、体の部位などの簡単な単語が言える</li>
                         </ul>
                       </div>
                     </div>
@@ -228,41 +217,24 @@
                 <table>
                   <thead>
                     <tr>
-                      <th rowspan="2">
+                      <th>
                         <div class="th-inner">
-                          <span>対象クラス</span>
+                          <span>クラス</span>
                         </div>
                       </th>
-                      <th rowspan="2">
+                      <th>
                         <div class="th-inner">
-                          <span>定員</span>（1クラス）
+                          <span>定員</span>
                         </div>
                       </th>
-                      <th rowspan="2">
+                      <th>
                         <div class="th-inner">
-                          <span>時間</span>（1レッスン）
+                          <span>時間</span> / 1回
                         </div>
                       </th>
-                      <th rowspan="2">
-                        <div class="th-inner">
-                          <span>回数</span>（月平均）
-                        </div>
-                      </th>
-                      <th colspan="2">
+                      <th>
                         <div class="th-inner">
                           <span>料金</span>
-                        </div>
-                      </th>
-                    </tr>
-                    <tr>
-                      <th>
-                        <div class="th-inner">
-                          <span>年払い</span>
-                        </div>
-                      </th>
-                      <th>
-                        <div class="th-inner">
-                          <span>月払い</span>
                         </div>
                       </th>
                     </tr>
@@ -271,12 +243,12 @@
                     <tr>
                       <td>
                         <div class="td-inner">
-                          <span>上記全て</span>
+                          <span>たまご・<nobr>ひよこ</nobr></span>
                         </div>
                       </td>
                       <td>
                         <div class="td-inner">
-                          <span>~ <strong>3</strong>組</span>
+                          <span>~ <strong>5</strong>人</span>
                         </div>
                       </td>
                       <td>
@@ -286,38 +258,7 @@
                       </td>
                       <td>
                         <div class="td-inner">
-                            <span><strong>2</strong>回</span>
-                            <p>（年間24回）</p>
-                        </div>
-                      </td>
-                      <td>
-                        <div class="td-inner">
-                          <div class="prt-wrap">
-                            <div><img src="images/table-parts1.png" alt=""></div>
-                            <span><strong>¥29,400（税込）</strong></span>
-                            <p>（¥2,450/月）</p>
-                          </div>
-                          <div class="td-inner">
-                            <div class="prt-wrap">
-                              <div><img src="images/table-parts2.png" alt=""></div>
-                              <span><strong>¥27,000（税込）</strong></span>
-                              <p>（¥2,250/月）</p>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td>
-                        <div class="td-inner">
-                          <div class="prt-wrap">
-                            <div><img src="images/table-parts1.png" alt=""></div>
-                            <span><strong>¥2,500（税込）</strong></span>
-                          </div>
-                          <div class="td-inner">
-                            <div class="prt-wrap">
-                              <div><img src="images/table-parts2.png" alt=""></div>
-                              <span><strong>¥2,300（税込）</strong></span>
-                            </div>
-                          </div>
+                          <span class="for-link"><a href="https://notogawasky.com/lesson_fee">料金ページへ</a></span>
                         </div>
                       </td>
                     </tr>
@@ -325,8 +266,6 @@
                 </table>
               </div>
               <div class="asterisk">
-                <p style="padding:0 0 1em">※早期入会は前年度3月の第2金曜日までに申し込みを完了された方に適応される割引です。</p>
-                <p style="padding:0 0 1em">※その他料金についての詳細は<a href="https://notogawasky.com/lesson_fee" class="for-link">料金ページ</a>にてご確認ください。</p>
                 <ul>
                   <li><a href="https://notogawasky.com/pdf/weekly-schedule-2021.pdf" class="schedule-link" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-calendar-week"></i>週間時間割表

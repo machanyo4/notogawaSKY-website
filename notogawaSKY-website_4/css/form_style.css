@@ -193,7 +193,7 @@ div.radio >span {
     margin-bottom: 80px;
   }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 856px){
   .form-ttl .logo-box img{
     width: 35%;
   }

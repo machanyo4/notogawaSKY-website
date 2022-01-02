@@ -75,7 +75,7 @@
 .class-outline h3{
   display: inline-block;
   font-size: 1.8725rem;
-  font-size: 29.96px;
+  font-size: 28px;
   font-weight: 900;
   line-height: 1.8;
   text-align: left;
@@ -164,6 +164,7 @@ section.each-class::before{
   border-color: #BA1011;
 }
 .class-box .box-title{
+  position: relative;
   color: #fff;
   padding: 2em 2.3333em;
 }
@@ -178,6 +179,12 @@ section.each-class::before{
 }
 .advanced .class-box .box-title{
   background-color: #BA1011;
+}
+.class-box .box-title .title-accessary{
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width:110px;
 }
 .class-box .box-title h3{
   font-size: 1.5625rem;
@@ -488,6 +495,7 @@ section.lesson-fee{
   padding-top: 25px;
 }
 .table-wrapper{
+  overflow-x: scroll;
   padding:0 0 3rem;
   border-bottom: 1px solid #707070;
   font-size: 1rem;
@@ -495,28 +503,30 @@ section.lesson-fee{
 }
 .lesson-fee table{
   width: 100%;
+  white-space: nowrap;
 }
 .lesson-fee thead th{
-  width: 25%;
+  min-width: 200px;
 }
 .lesson-fee th{
-  border-left: 3px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   background-color: #E2E6EC
 }
-.lesson-fee th:first-child{
+.lesson-fee tr:first-child th:first-child{
   border-left: none;
 }
 .lesson-fee .th-inner{
   text-align: center;
-  padding: 1.25em 0.5em;
+  padding: 0 0.5em;
   font-weight: 700;
 }
 .lesson-fee .th-inner span{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .lesson-fee td{
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   background-color: rgba(144, 209, 198, 0.3);
   text-align: center;
   vertical-align: middle;
@@ -525,6 +535,10 @@ section.lesson-fee{
   border-left: none;
   color: #fff;
 }
+.lesson-fee td:last-child{
+  border-bottom: none;
+}
+
 .little-child tbody td:first-child{
   background-color: #FF99CA;
 }
@@ -539,14 +553,18 @@ section.lesson-fee{
   color: #fff;
 }
 .lesson-fee .td-inner{
-  padding: 1.8em 0.5em;
+  padding: 0.5em;
 }
 .lesson-fee td:first-child .td-inner{
   font-weight: 700;
 }
+.lesson-fee .td-inner .prt-wrap img{
+  margin:0 auto;
+  width: 70px;
+  height: auto;
+}
 .lesson-fee .td-inner span{
-  font-size: 0.85rem;
-  font-size: 13.6px;
+  font-size: 0.85em;
 }
 .lesson-fee .td-inner strong{
   font-size: 1.25em;
@@ -555,7 +573,10 @@ section.lesson-fee{
   padding: 0 5px;
   font-size: 10px;
 }
-.lesson-fee .td-inner .for-link a {
+.lesson-fee .for-link{
+  color: #007bff;
+}
+.lesson-fee .for-link:hover{
   text-decoration:underline;
   color: #007bff;
 }
@@ -616,7 +637,6 @@ section.lesson-fee{
 }
 .lesson-fee .th-inner{
   font-size: 0.75rem;
-  font-size: 12px;
 }
 .fee-page .lesson-fee tbody .td-inner{
   padding: 1.25em 0.25em;
@@ -941,26 +961,25 @@ section.entry-flow .inner .container{
   .table-wrapper{
     font-size: 0.895em;
   }
-  .lesson-fee th{
+  .lesson-fee thead th{
     border-left: 2px solid #fff;
   }
   .lesson-fee .th-inner{
-    padding: 1.25em 0.5em;
+    padding: 0 0.5em;
   }
   .fee-page .lesson-fee .th-inner {
     font-size: 0.825rem;
     font-size: 13.2px;
   }
   .lesson-fee td{
-    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
   }
   .lesson-fee .td-inner{
-    padding: 1.8em 0.5em;
+    padding: 0.5em;
   }
   .lesson-fee .td-inner span{
-    font-size: 1rem;
-    font-size: 16px;
+    font-size: 1em;
   }
   .lesson-fee .td-inner strong{
     font-size: 1.25em;
@@ -978,7 +997,7 @@ section.entry-flow .inner .container{
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 856px){
   .activity-panel h2 {
     font-size: 2rem;
     font-size: 32px;
@@ -1006,21 +1025,18 @@ section.entry-flow .inner .container{
     font-size: 0.95em;
   }
   .lesson-fee .th-inner{
-    padding: 1.25em 0.5em;
+    padding: 0 0.5em;
   }
   .lesson-fee .th-inner {
     font-size: 0.95rem;
     font-size: 15.2px;
   }
-  .lesson-fee .th-inner span{
-    font-size: 1.2em;
-  }
+  .lesson-fee .th-inner span,
   .lesson-fee .td-inner span{
-    font-size: 1.125rem;
-    font-size: 18px;
+    font-size: 1em;
   }
   .lesson-fee .td-inner strong{
-    font-size: 1.35em;
+    font-size: 1.25em;
   }
   .precedent-cases .grid-container{
     padding-top: 25px;
@@ -1035,7 +1051,7 @@ section.entry-flow .inner .container{
     flex-wrap: wrap;
   }
 }
-@media (min-width: 769px){
+@media (min-width: 857px){
   .flow .trial-lesson:hover{
     opacity: 0.5;
   }
@@ -1061,20 +1077,19 @@ section.entry-flow .inner .container{
     border-left: 3px solid #fff;
   }
   .lesson-fee .th-inner{
-    padding: 1.25em 0.5em;
+    padding: 0 0.5em;
     font-size: 1.125rem;
     font-size: 18px;
   }
   .lesson-fee .th-inner span{
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   .lesson-fee td{
-    border-top: 3px solid #fff;
-    border-left: 3px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
   }
   .lesson-fee .td-inner span{
-    font-size: 1.25rem;
-    font-size: 20px;
+    font-size: 1.1em;
   }
   .precedent-cases .grid-container{
     padding-top: 25px;
@@ -1101,19 +1116,22 @@ section.entry-flow .inner .container{
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 856px){
   .flow .trial-lesson:active{
     opacity: 0.5;
   }
   .next-course a:active{
     opacity: 0.8;
   }
+  .lesson-fee thead th{
+    min-width: 150px;
+  }
   .lesson-fee .td-inner .for-link a:active{
     color: #0056b3;
   }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 855px){
   .page-title{
     margin-top: 60px;
     padding-top: 25px;
@@ -1125,15 +1143,13 @@ section.entry-flow .inner .container{
     margin-bottom: 0.9375rem;
   }
   .page-title p{
-    font-size: 0.85rem;
-    font-size: 13.6px;
+    font-size: 0.75rem;
   }
   .class-outline{
     padding: 4.25rem 0;
   }
   .class-outline h3 {
-    font-size: 1.375rem;
-    font-size: 22px;
+    font-size: 1.25rem;
     font-weight: 900;
   }
   .lesson-info .content-title h2{
@@ -1146,6 +1162,12 @@ section.entry-flow .inner .container{
   .class-box .box-title h3 {
     font-size: 1.375rem;
     font-size: 22px;
+  }
+  .class-box .box-title .title-accessary{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:80px;
   }
   .class-content .content {
     padding: 2rem 0 2.5rem;
@@ -1371,6 +1393,9 @@ section.entry-flow .inner .container{
   .asterisk{
     padding-left: 0;
     padding-right: 0;
+  }
+  .lesson-fee thead th{
+    min-width: 100px;
   }
   .feetable-img {
     padding-bottom: 1.95rem;
