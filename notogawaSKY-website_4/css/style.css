@@ -484,7 +484,7 @@ nav{
 
 /*-------- Header Media Query ------*/
 
-@media screen and (min-width: 857px){
+@media screen and (min-width: 769px){
   header{
     background: transparent;
     color: #fff;
@@ -580,7 +580,7 @@ nav{
   }
 }
 
-@media screen and (max-width: 856px){
+@media screen and (max-width: 768px){
   .pc{
     display: none !important;
   }
@@ -697,8 +697,8 @@ nav{
   }
   .hd-btn{
     padding: 3% 3.3333%;
-    font-size: 12.5px;
-    width: 33%;
+    font-size: 14px;
+    width: 46%;
     text-align: center;
     border-radius: 4px;
   }
@@ -1095,13 +1095,13 @@ nav{
     -webkit-transform: translate(-50%, -50%);
   }
 }
-@media only screen and (min-width: 856px){
+@media only screen and (min-width: 768px){
   .panel-content .row-item:first-child{
     padding-right: calc(15px + 2.5%);
   }
 }
 
-@media only screen and (min-width: 857px) {
+@media only screen and (min-width: 769px) {
   .sp{
     display: none !important;
   }
@@ -1142,7 +1142,7 @@ nav{
 }
 
 
-@media screen and (max-width: 855px){
+@media screen and (max-width: 767px){
   .sec-defo-pad{
     padding: 80px 0;
   }
@@ -1242,9 +1242,6 @@ nav{
 }
 
 @media screen and (max-width: 425px){
-  .hd-btn{
-    font-size: 11px;
-  }
   .sec-defo-pad{
     padding: 60px 0;
   }
