@@ -9,7 +9,7 @@
           </div>
         <div class="form-box for-inquiry">
             <p><span>質問や相談等</span>を<br>ご希望の方はコチラ</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSduJnOXKJXhsWSvces-JqHZFp3xtWU4_v4AuRS4qNFpf-Xkug/viewform?usp=sf_link" class="bttn contact-btn" target="_blank" rel="noopener noreferrer">お問い合わせフォーム</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoA_6lQIvoCC94Rf9028Fm5n2-vKjbViRk8Qs4qwz_9jB0ug/viewform?usp=sf_link" class="bttn contact-btn" target="_blank" rel="noopener noreferrer">お問い合わせフォーム</a>
         </div>
       </div>
     </div>
