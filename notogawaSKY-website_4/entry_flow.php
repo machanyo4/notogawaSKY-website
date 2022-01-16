@@ -74,7 +74,7 @@
                         </dd>
                       </dl>
                       <p><span>申込フォームに入力のうえ、お申し込みください。<br>後日、ご記入頂いた連絡先に返信致します。</span></p>
-                      <a href="https://notogawasky.com/trial_lesson" class="bttn trial-lesson" target="_blank" rel="noopener noreferrer">申し込みフォーム</a>
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_881UM7zD69FaAhad7pNigf1h8-alvaqrOAG0aikqSNkhWw/viewform?usp=sf_link" class="bttn trial-lesson" target="_blank" rel="noopener noreferrer">申し込みフォーム</a>
                     </div>
                   </li>
 

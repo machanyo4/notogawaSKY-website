@@ -8,7 +8,7 @@
         </div>
         <div class="toggle-btn">
           <div class="toggle-box">
-            <div>
+            <div>
               <span></span>
               <span></span>
               <span></span>
@@ -30,8 +30,8 @@
                 </span>
               </div>
               <div class="hdbtn-wrapper">
-                <a href="https://notogawasky.com/trial_lesson" class="bttn hd-btn trial-lesson" target="_blank" rel="noopener noreferrer">無料体験レッスン</a>
-                <a href="https://notogawasky.com/inquiry_form" class="bttn hd-btn inquiry" target="_blank" rel="noopener noreferrer">お問い合わせ</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_881UM7zD69FaAhad7pNigf1h8-alvaqrOAG0aikqSNkhWw/viewform?usp=sf_link" class="bttn hd-btn trial-lesson" target="_blank" rel="noopener noreferrer">無料体験レッスン</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoA_6lQIvoCC94Rf9028Fm5n2-vKjbViRk8Qs4qwz_9jB0ug/viewform?usp=sf_link" class="bttn hd-btn inquiry" target="_blank" rel="noopener noreferrer">お問い合わせ</a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwnLORrS6BZqvRoM3K8RU6_OLHw5Hx3_10GDXXvlKdtyNl-g/viewform?usp=sf_link" class="bttn hd-btn monitor-lesson" target="_blank" rel="noopener noreferrer">モニターレッスン</a>
               </div>
             </div>
@@ -159,8 +159,8 @@
         </span>
       </div> -->
       <ul class="hdbtn-place">
-        <li><a href="https://notogawasky.com/trial_lesson" class="bttn trial-lesson" target="_blank" rel="noopener noreferrer">無料体験レッスン</a></li>
-        <li><a href="https://notogawasky.com/inquiry_form" class="bttn inquiry" target="_blank" rel="noopener noreferrer">お問い合わせ</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf_881UM7zD69FaAhad7pNigf1h8-alvaqrOAG0aikqSNkhWw/viewform?usp=sf_link" class="bttn trial-lesson" target="_blank" rel="noopener noreferrer">無料体験レッスン</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfoA_6lQIvoCC94Rf9028Fm5n2-vKjbViRk8Qs4qwz_9jB0ug/viewform?usp=sf_link" class="bttn inquiry" target="_blank" rel="noopener noreferrer">お問い合わせ</a></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwnLORrS6BZqvRoM3K8RU6_OLHw5Hx3_10GDXXvlKdtyNl-g/viewform?usp=sf_link" class="bttn monitor-lesson" target="_blank" rel="noopener noreferrer">モニターレッスン</a></li>
       </div>
     </div>

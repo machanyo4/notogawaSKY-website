@@ -119,7 +119,7 @@
             <div class="container">
               <div class="class-box">
                 <div class="box-title">
-                    <span class="title-accessary"><img src="images/class-accessary.png" width="85px"></span>
+                  <label class="W7">親子参加</label>
                   <h3><span>ベビー</span>クラス</h3>
                 </div>
                 <div class="class-content">
@@ -150,7 +150,7 @@
               </div>
               <div class="class-box">
                 <div class="box-title">
-                  <span class="title-accessary"><img src="images/class-accessary.png" width="85px"></span>
+                <label class="W7">親子参加</label>
                   <h3><span>たまご</span>クラス</h3>
                 </div>
                 <div class="class-content">
@@ -180,7 +180,7 @@
               </div>
               <div class="class-box">
                 <div class="box-title">
-                  <span class="title-accessary"><img src="images/class-accessary.png" width="85px"></span>
+                  <label class="W7">親子参加</label>
                   <h3><span>ひよこ</span>クラス</h3>
                 </div>
                 <div class="class-content">
@@ -293,13 +293,13 @@
                       <td>
                         <div class="td-inner">
                           <div class="prt-wrap">
-                            <div><img src="images/table-parts1.png" alt=""></div>
+                            <div style="text-align:center;"><div class="label">通常</div></div>
                             <span><strong>¥29,400（税込）</strong></span>
                             <p>（¥2,450/月）</p>
                           </div>
                           <div class="td-inner">
                             <div class="prt-wrap">
-                              <div><img src="images/table-parts2.png" alt=""></div>
+                            <div style="text-align:center;"><div class="label">早期入会</div></div>
                               <span><strong>¥27,000（税込）</strong></span>
                               <p>（¥2,250/月）</p>
                             </div>
@@ -309,12 +309,12 @@
                       <td>
                         <div class="td-inner">
                           <div class="prt-wrap">
-                            <div><img src="images/table-parts1.png" alt=""></div>
+                          <div style="text-align:center;"><div class="label">通常</div></div>
                             <span><strong>¥2,500（税込）</strong></span>
                           </div>
                           <div class="td-inner">
                             <div class="prt-wrap">
-                              <div><img src="images/table-parts2.png" alt=""></div>
+                            <div style="text-align:center;"><div class="label">早期入会</div></div>
                               <span><strong>¥2,300（税込）</strong></span>
                             </div>
                           </div>
@@ -325,7 +325,7 @@
                 </table>
               </div>
               <div class="asterisk">
-                <p style="padding:0 0 1em">※早期入会は前年度3月の第2金曜日までに申し込みを完了された方に適応される割引です。</p>
+                <p style="padding:0 0 1em">※早期入会は前年度3月の第2金曜日までに申し込みを完了された方に適応されます。</p>
                 <p style="padding:0 0 1em">※その他料金についての詳細は<a href="https://notogawasky.com/lesson_fee" class="for-link">料金ページ</a>にてご確認ください。</p>
                 <ul>
                   <li><a href="https://notogawasky.com/pdf/weekly-schedule-2021.pdf" class="schedule-link" target="_blank" rel="noopener noreferrer">

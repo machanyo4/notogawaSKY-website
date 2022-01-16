@@ -61,11 +61,11 @@
         <section class="lesson-fee sec-defo-pad">
           <div class="inner">
             <div class="container">
-              <div class="feetable-img">
+              <div class="lf-wrap">
                 <div class="content-title">
                   <h3>料金表（2021年度）</h3>
                 </div>
-                <div class="img-lessonfee-table"></div>
+                <div class="fee-table"><img src="images/lessonfee-table.jpg" alt="料金表"></div>
                 <p>※<span>一括支払い時を選択された方の途中退会にかかわる返金についての詳細は教室にお問い合わせください。</span></p>
               </div>
               <div class="table-wrapper">
