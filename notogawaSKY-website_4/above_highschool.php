@@ -53,7 +53,7 @@
               <div class="inner">
                 <div class="container">
                   <h1>高校以上向けクラス</h1>
-                  <p>高校生、大学生、社会人を対象としたクラス（Advanced）についての紹介です</p>
+                  <p>高校生、大学生、社会人を対象としたクラス（Basic・Advanced）についての紹介です</p>
                 </div>
               </div>
             </div>
@@ -69,6 +69,54 @@
       </div>
       <div class="main advanced">
         <section class="each-class sec-defo-pad">
+          <div class="inner">
+            <div class="container">
+              <div class="class-box">
+                <div class="box-title">
+                  <h3><span>Basic</span>クラス</h3>
+                </div>
+                <div class="class-content">
+                  <div class="content-wrapper">
+                    <div class="objective">
+                      <span class="label">到達レベル</span>
+                      <div class="content">
+                        <ul class="each-objective">
+                          <li>
+                            <dl>
+                              <dt>Speaking</dt>
+                              <dd>これまで習得してきた文法や表現を使って、自然にごく簡単な会話のやりとりができる。スライドなどを使って、簡単なプレゼンテーションができる。簡単な内容の質問に、単語やごく簡単な表現で答えることができる。</dd>
+                            </dl>
+                          </li>
+                          <li>
+                            <dl>
+                              <dt>Listening</dt>
+                              <dd>日常的な話題の簡単な会話が聞ける。簡単な質問の内容が理解できる。</dd>
+                            </dl>
+                          </li>
+                          <li>
+                            <dl>
+                              <dt>Reading&<br>Writing</dt>
+                              <dd>簡単な内容のメール、SNSメッセージや説明文が読め、書ける。</dd>
+                            </dl>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <span class="label">身に付くスキル</span>
+                      <div class="content">
+                        <ul>
+                          <li>実際の海外とのコミュニケーションの中でのごく簡単な会話力、海外旅行で困らないくらいのごく簡単な会話ができる</li>
+                          <li>簡単にプレゼンテーションをする力</li>
+                          <li>海外の人とのコミュニケーションの中でも物怖じしない姿勢や友好的な態度</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="inner">
             <div class="container">
               <div class="class-box">

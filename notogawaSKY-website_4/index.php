@@ -610,7 +610,7 @@
                         <div class="class-info">
                           <h3>ベビー・幼児</h3>
                           <p class="level-display">
-                            ひよこ・たまご
+                            ベビー・ひよこ・たまご
                           </p>
                         </div>
                       </a>
@@ -625,7 +625,7 @@
                         <div class="class-info">
                           <h3>小学生</h3>
                           <p class="level-display">
-                            STEP1〜STEP3
+                            Beginner・STEP1〜STEP3
                           </p>
                         </div>
                       </a>
@@ -655,7 +655,7 @@
                         <div class="class-info">
                           <h3>高校生以上</h3>
                           <p class="level-display">
-                            Advanced
+                            Basic・Advanced
                           </p>
                         </div>
                       </a>

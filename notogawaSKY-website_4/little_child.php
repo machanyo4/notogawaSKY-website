@@ -128,7 +128,7 @@
                       <span class="label">対象</span>
                       <div class="content">
                         <ul>
-                          <li>生後すぐ〜よちよち歩きのお子様</li>
+                          <li>首が座った赤ちゃん〜よちよち歩きのお子様と保護者の方</li>
                         </ul>
                       </div>
                     </div>
@@ -159,7 +159,7 @@
                       <span class="label">対象</span>
                       <div class="content">
                         <ul>
-                          <li>一人でしっかり歩ける未就園のお子様</li>
+                          <li>一人でしっかり歩ける未就園のお子様と保護者の方</li>
                         </ul>
                       </div>
                     </div>
@@ -189,7 +189,7 @@
                       <span class="label">対象</span>
                       <div class="content">
                         <ul>
-                          <li>幼稚園・保育園年少～年長のお子様</li>
+                          <li>幼稚園・保育園年少～年長のお子様と保護者の方</li>
                         </ul>
                       </div>
                     </div>

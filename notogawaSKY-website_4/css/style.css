@@ -811,11 +811,13 @@ nav{
 /* --------------------------- Main -----------------------------------------*/
 .container{
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
 }
 .sec-defo-pad{
-  padding: 100px 0;
+  padding: 80px 0;
 }
 .inside-link{
   position: absolute;

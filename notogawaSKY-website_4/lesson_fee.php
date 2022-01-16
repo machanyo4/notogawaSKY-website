@@ -111,11 +111,9 @@
                           <span><strong>40</strong>分</span>
                         </div>
                       </td>
-                      <td rowspan="5" class="row-combine">
+                      <td>
                         <div class="td-inner">
-                          <div><span><strong>42</strong>回</span> /年</div>
-                          <div><span><strong>3.5</strong>回</span> /月</div>
-                          <p>(+レッスン外でも参加可能な各種イベント)</p>
+                          <span><strong>40</strong>分</span>
                         </div>
                       </td>
                     </tr>
@@ -133,6 +131,13 @@
                       <td>
                         <div class="td-inner">
                           <span><strong>50</strong>分</span>
+                        </div>
+                      </td>
+                      <td rowspan="4" class="row-combine">
+                        <div class="td-inner">
+                          <div><span><strong>42</strong>回</span> /年</div>
+                          <div><span><strong>3.5</strong>回</span> /月</div>
+                          <p>(+レッスン外でも参加可能な各種イベント)</p>
                         </div>
                       </td>
                     </tr>
@@ -199,18 +204,20 @@
                 <p>　年度初めに年間分(1200円)を頂いております。</p>
                 <h4>※<span>お支払いについて</span></h4>
                 <p>　年払い、月払いを選択いただけます。料金の支払い方法は、口座振替とさせていただきます。</p>
-                <h4>※<span>レッスン回数について</span></h4>
+                <h4>※<span>レッスン回数について　(ベビー・ひよこ・たまごクラスを除く)</span></h4>
                 <p class="lb">　年間42回を予定していますが、多少前後する可能性がございます。
                   <br>　また、月当たりのレッスン回数は「年間の回数÷12ヶ月」で計算したもので、月によっては3回になる場合がございます。
                   詳しくは下の「年間スケジュール＆カリキュラム」からご確認ください。</p>
                 <div class="for-schedule">
-                  <a href="https://notogawasky.com/pdf/lesson-curriculum_2021.pdf" class="curriculum-link" target="_blank" rel="noopener noreferrer">
+                  <a href="https://notogawasky.com/pdf/lesson-curriculum_2022.pdf" class="curriculum-link" target="_blank" rel="noopener noreferrer">
                     年間スケジュール＆カリキュラム
                     <span class="pdf-icon"></span>
                   </a>
                 </div>
                 <h4>※<span>欠席時や祝日等の振替について</span></h4>
-                <p>　プロジェクトベースで授業を進めるため、欠席によるレッスンの振替は行っておりません。欠席の生徒さんには、レッスンのポイント事項や関連する学習コンテンツをお知らせいたします。
+                <p>　ベビー・幼児クラスは、同年齢のクラスでない場合がありますが、欠席レッスン分を可能な限り振替えてご参加いただけます。
+                  <br>　小学生以上のクラスはプロジェクトベースで授業を進めるため、欠席によるレッスンの振替は行っておりません。欠席の生徒さんには、レッスンのポイント事項や関連する学習コンテンツをお知らせいたします。
+                  <br>　やむを得ず来室できない場合には、リアルタイムでオンラインにて教室以外の場所からご参加いただくことも可能です。
                   <br>　祝日については、別日に振替いたします。</p>
               </div>
             </div>

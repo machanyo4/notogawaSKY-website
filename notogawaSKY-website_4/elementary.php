@@ -53,7 +53,7 @@
               <div class="inner">
                 <div class="container">
                   <h1>小学生向けクラス</h1>
-                  <p>小学生を対象としたクラス（S1〜S3）についての紹介です</p>
+                  <p>小学生を対象としたクラス（Beginner・S1〜S3）についての紹介です</p>
                 </div>
               </div>
             </div>
@@ -71,6 +71,40 @@
         <section class="each-class sec-defo-pad">
           <div class="inner">
             <div class="container">
+              <div class="class-box">
+                <div class="box-title">
+                  <h3><span>Beginner</span>クラス</h3>
+                </div>
+                <div class="class-content">
+                  <div class="content-wrapper">
+                    <div class="objective">
+                      <span class="label">目的・目標</span>
+                      <div class="skill">
+                        <div class="content">
+                          <ul>
+                            <li>英語のリズムを習得</li>
+                            <li>フォニックスに慣れる</li>
+                            <li>英語独得の音と文字・言葉の綴りを関連付けて覚える</li>
+                            <li>海外の国の地理・風習に触れる</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <span class="label">身に付く力</span>
+                      <div class="content">
+                        <ul>
+                          <li>英語のリズムで簡単な表現を聞き・話す</li>
+                          <li> 簡単な単語が文字を見て読める</li>
+                          <li>簡単に日本地図・世界地図を見ることができる</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="next-class">
+              </div>
               <div class="class-box">
                 <div class="box-title">
                   <h3><span>S1</span>クラス</h3>
@@ -112,7 +146,6 @@
                           <li> I’m from Shiga, Japan.<span> / </span>This is 〜.<span> / </span>Finished.</li>
                           <li>What’s your name?<span> / </span>What’s this?</li>
                           <li>I like[love] 〜.</li>
-
                         </ul>
                       </div>
                     </div>
