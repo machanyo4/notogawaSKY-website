@@ -63,7 +63,7 @@
             <div class="container">
               <div class="lf-wrap">
                 <div class="content-title">
-                  <h3>料金表（2021年度）</h3>
+                  <h3>料金表（2022年度）</h3>
                 </div>
                 <div class="fee-table"><img src="images/lessonfee-table.jpg" alt="料金表"></div>
                 <p>※<span>一括支払い時を選択された方の途中退会にかかわる返金についての詳細は教室にお問い合わせください。</span></p>
@@ -98,22 +98,23 @@
                     <tr>
                       <td>
                         <div class="td-inner">
-                          <span>たまご・<nobr>ひよこ</nobr></span>
+                          <span>ベビー・たまご・<nobr>ひよこ</nobr></span>
                         </div>
                       </td>
                       <td>
                         <div class="td-inner">
-                          <span>~ <strong>5</strong>人</span>
-                        </div>
-                      </td>
-                      <td>
-                        <div class="td-inner">
-                          <span><strong>40</strong>分</span>
+                          <span>~ <strong>3</strong>組</span>
                         </div>
                       </td>
                       <td>
                         <div class="td-inner">
                           <span><strong>40</strong>分</span>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="td-inner">
+                          <div><span><strong>24</strong>回</span> /年</div>
+                          <div><span><strong>2</strong>回</span> /月</div>
                         </div>
                       </td>
                     </tr>
