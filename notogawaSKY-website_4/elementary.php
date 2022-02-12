@@ -499,7 +499,7 @@
                     <i class="fas fa-calendar-week"></i>週間時間割表
                     <span class="pdf-icon"></span>
                   </a></li>
-                  <li><a href="https://notogawasky.com/pdf/lesson-curriculum_2021.pdf" class="curriculum-link" target="_blank" rel="noopener noreferrer">
+                  <li><a href="https://notogawasky.com/pdf/in-preparation.pdf" class="curriculum-link" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-th-list"></i>年間スケジュール＆カリキュラム
                     <span class="pdf-icon"></span>
                   </a></li>
