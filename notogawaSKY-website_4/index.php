@@ -582,6 +582,7 @@
                 </div>
                 <div class="qualification">
                   <p>TOEIC L&R 910点（2019年） /   小学校英語指導者＋（2020年）</p>
+                  <p>Rhymoe®Liteトレーニング修了（2021年）</p>
                 </div>
                 <div class="message">
                   <p>こんにちは！皆さんは英語が好きですか？また、英語を使ってコミュニケーションを図れますか？</p>
@@ -665,7 +666,7 @@
               </div>
               <div class="classes-asterisk">
                 <ul>
-                  <li><a href="https://notogawasky.com/images/in-preparation.jpg" class="schedule-link" target="_blank" rel="noopener noreferrer">
+                  <li><a href="https://notogawasky.com/images/weekly-schedule-2022.pdf" class="schedule-link" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-calendar-week"></i>週間時間割表
                     <span class="pdf-icon"></span>
                   </a></li>

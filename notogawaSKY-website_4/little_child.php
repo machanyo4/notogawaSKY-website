@@ -102,7 +102,7 @@
                         <div class="img-wrapper">
                           <div class="img-activity img-activity-item3"></div>
                         </div>
-                        <h3>動画コンテンツ<br><span>(歌・手遊び・エッグシェーカ等)</span></h3>
+                        <h3>歌・手遊び・エッグシェーカ等</h3>
                       </div>
                     </div>
                   </div>
@@ -328,11 +328,11 @@
                 <p style="padding:0 0 1em">※早期入会は前年度3月の第2金曜日までに申し込みを完了された方に適応されます。</p>
                 <p style="padding:0 0 1em">※その他料金についての詳細は<a href="https://notogawasky.com/lesson_fee" class="for-link">料金ページ</a>にてご確認ください。</p>
                 <ul>
-                  <li><a href="https://notogawasky.com/pdf/weekly-schedule-2021.pdf" class="schedule-link" target="_blank" rel="noopener noreferrer">
+                  <li><a href="https://notogawasky.com/pdf/weekly-schedule-2022.pdf" class="schedule-link" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-calendar-week"></i>週間時間割表
                     <span class="pdf-icon"></span>
                   </a></li>
-                  <li><a href="https://notogawasky.com/pdf/in-preparation.pdf" class="curriculum-link" target="_blank" rel="noopener noreferrer">
+                  <li><a href="https://notogawasky.com/pdf/lesson-curriculum_2022.pdf" class="curriculum-link" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-th-list"></i>年間スケジュール＆カリキュラム
                     <span class="pdf-icon"></span>
                   </a></li>
