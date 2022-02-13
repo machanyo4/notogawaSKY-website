@@ -666,7 +666,7 @@
               </div>
               <div class="classes-asterisk">
                 <ul>
-                  <li><a href="https://notogawasky.com/images/weekly-schedule-2022.pdf" class="schedule-link" target="_blank" rel="noopener noreferrer">
+                  <li><a href="https://notogawasky.com/pdf/weekly-schedule-2022.pdf" class="schedule-link" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-calendar-week"></i>週間時間割表
                     <span class="pdf-icon"></span>
                   </a></li>
