@@ -85,7 +85,7 @@
                       <div class="target">
                         <ul>
                           <li><span>対象</span></li>
-                          <li>Biginner ~ Advanced</li>
+                          <li>Beginner ~ Advanced</li>
                         </ul>
                       </div>
                       <p>海外の教室からはクリスマスカード、notogawa SKYからは年賀状を送り合います。その後、カードを受け取ったことをビデオメッセージやオンラインで相手に伝え、交流を深めます。</p>

@@ -449,7 +449,7 @@
                     <tr>
                       <td>
                         <div class="td-inner">
-                          <span>S1</span>
+                          <span>Beginner・S1</span>
                         </div>
                       </td>
                       <td>

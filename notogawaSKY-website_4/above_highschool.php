@@ -277,7 +277,7 @@
                     <tr>
                       <td>
                         <div class="td-inner">
-                          <span>Advanced</span>
+                          <span>Basic・Advanced</span>
                         </div>
                       </td>
                       <td>

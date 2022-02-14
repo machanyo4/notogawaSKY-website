@@ -121,7 +121,7 @@
                     <tr>
                       <td>
                         <div class="td-inner">
-                          <span>S1</span>
+                          <span>Beginner・S1</span>
                         </div>
                       </td>
                       <td>
@@ -179,7 +179,7 @@
                     <tr>
                       <td>
                         <div class="td-inner">
-                          <span>Advanced</span>
+                          <span>Basic・Advanced</span>
                         </div>
                       </td>
                       <td>
