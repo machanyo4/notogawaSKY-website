@@ -57,7 +57,7 @@
         </div>
         <div class="sidebar-column col-md-6">
           <aside class="widget widget_contact_info" itemscope itemtype="http://schema.org/LocalBusiness">
-            <h3 class="widget-title">notogawa SKY English Shool</h3>
+            <h3 class="widget-title">notogawa SKY English School</h3>
             <div class="gmap">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.228997746422!2d136.15794651523896!3d35.17584458031516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60017e918b4bb125%3A0x38d34c71cffa7dcf!2z44CSNTIxLTEyMzUg5ruL6LOA55yM5p2x6L-R5rGf5biC5LyK5bqt55S677yR77yR77yT4oiS77yS77yY!5e0!3m2!1sja!2sjp!4v1592851155425!5m2!1sja!2sjp" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Google Map Embed"></iframe>
             </div>

@@ -537,9 +537,9 @@ section.lesson-fee{
   border-left: none;
   color: #fff;
 }
-.lesson-fee td:last-child{
+/* .lesson-fee td:last-child{
   border-bottom: none;
-}
+} */
 
 .little-child tbody td:first-child{
   background-color: #FF99CA;
@@ -1086,7 +1086,7 @@ section.entry-flow .inner .container{
     font-size: 1.25em;
   }
   .lesson-fee td{
-    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
     border-left: 2px solid #fff;
   }
   .lesson-fee .td-inner span{
